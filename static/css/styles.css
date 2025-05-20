@@ -1,0 +1,22 @@
+root {
+    --color-heading: navy;
+    --color-primary: gray;
+    --color-secondary: black;
+    --color-secprimary: yellow;
+    --color-secsecondary: white;
+    --border-color: purple;
+}
+
+.nav {
+    background: var(--color-heading);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px;
+    border-radius: var(border-radius);
+    border-color: var(--border-color);
+    color: var(--color-primary);
+    width: 100%;
+    
+}

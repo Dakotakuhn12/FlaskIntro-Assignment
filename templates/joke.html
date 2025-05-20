@@ -11,7 +11,7 @@
   </head>
   <body>
     <h2>Choose your mood</h2>
-    <form action="/joke" mehtod="POST">
+    <form action="/joke" method="POST">
       <label for="mood">Select a mood</label>
       <select name="mood" id="mood" required>
         {% for md in moods %}
@@ -22,8 +22,10 @@
     </form>
     {% if error %}
     <p style="color: gray">{{error}}</p>
-    {% endif %} {% image_url %}
+    {% endif %}
     <h3>Here's your mood ({{mood}})</h3>
+    {%if joke%}
+    <p>{{joke}}</p>
     {% endif %}
 
     <p><a href="/">Go Home</a></p>
