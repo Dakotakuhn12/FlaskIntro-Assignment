@@ -1,5 +1,6 @@
 root {
     --color-heading: navy;
+<<<<<<< HEAD
     --color-primary: gray;
     --color-secondary: black;
     --color-secprimary: yellow;
@@ -19,4 +20,9 @@ root {
     color: var(--color-primary);
     width: 100%;
     
+=======
+    --color-primary: black;
+    --color-secondary: gray;
+    --color-secprimary: 
+>>>>>>> 05ed9a278b1f4cf42753facab08c71e9470a071a
 }
